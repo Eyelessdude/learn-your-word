@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/learn_your_word
+    username: lyw_admin
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  flyway:
+    url: jdbc:mysql://localhost:3306/learn_your_word
+    user: lyw_admin
+    password: admin
